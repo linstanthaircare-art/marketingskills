@@ -1,0 +1,256 @@
+<!-- AVIS CLIENTS — L'INSTANT HAIRCARE -->
+<!-- À coller dans un bloc "Code" Squarespace -->
+
+<style>
+  .lih-reviews {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    font-family: inherit;
+  }
+  .lih-reviews__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3b1f5e;
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
+  }
+  .lih-reviews__subtitle {
+    text-align: center;
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .lih-reviews__stars-global {
+    color: #7c3aed;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  .lih-reviews__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .lih-card {
+    background: #f8f4ff;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid #e8dcff;
+    transition: box-shadow 0.2s;
+  }
+  .lih-card:hover {
+    box-shadow: 0 8px 32px rgba(124, 58, 237, 0.10);
+  }
+  .lih-card__stars {
+    color: #7c3aed;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .lih-card__text {
+    font-style: italic;
+    color: #2d1f3f;
+    font-size: 15px;
+    line-height: 1.65;
+    flex: 1;
+    margin: 0;
+  }
+  .lih-card__footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .lih-card__avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #7c3aed;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .lih-card__name {
+    font-weight: 600;
+    color: #3b1f5e;
+    font-size: 14px;
+  }
+  .lih-card__meta {
+    color: #999;
+    font-size: 12px;
+  }
+  .lih-card__source {
+    margin-left: auto;
+    font-size: 11px;
+    color: #bbb;
+    font-style: normal;
+    white-space: nowrap;
+  }
+  .lih-card--featured {
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+    border: none;
+    color: #fff;
+  }
+  .lih-card--featured .lih-card__stars { color: #e9d5ff; }
+  .lih-card--featured .lih-card__text { color: #f3e8ff; }
+  .lih-card--featured .lih-card__name { color: #fff; }
+  .lih-card--featured .lih-card__meta { color: #c4b5fd; }
+  .lih-card--featured .lih-card__source { color: #c4b5fd; }
+  .lih-card--featured .lih-card__avatar {
+    background: rgba(255,255,255,0.25);
+    color: #fff;
+  }
+  @media (max-width: 600px) {
+    .lih-reviews__grid {
+      grid-template-columns: 1fr;
+    }
+    .lih-reviews__title { font-size: 22px; }
+  }
+</style>
+
+<div class="lih-reviews">
+
+  <h2 class="lih-reviews__title">Ce qu'elles en disent</h2>
+  <p class="lih-reviews__subtitle">
+    <span class="lih-reviews__stars-global">★★★★★</span><br>
+    5/5 — Avis vérifiés (site &amp; Google)
+  </p>
+
+  <div class="lih-reviews__grid">
+
+    <!-- AVIS VEDETTE -->
+    <div class="lih-card lih-card--featured">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "Je l'utilise depuis deux mois et ma vie a changé. La gelée procure à mon cuir chevelu une hydratation et un confort inattendus."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">R</div>
+        <div>
+          <div class="lih-card__name">Rana</div>
+          <div class="lih-card__meta">Cheveux locksés</div>
+        </div>
+        <span class="lih-card__source">✓ Avis vérifié</span>
+      </div>
+    </div>
+
+    <!-- AVIS 2 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "La texture est absolument parfaite, pas de fini gras ni résidus blancs. Je revis."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">R</div>
+        <div>
+          <div class="lih-card__name">Rana</div>
+          <div class="lih-card__meta">Cheveux locksés</div>
+        </div>
+        <span class="lih-card__source">✓ Avis vérifié</span>
+      </div>
+    </div>
+
+    <!-- AVIS 3 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "J'utilise upcycurl depuis 2 ans pour toute la famille. Même partie en tour du monde avec."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">N</div>
+        <div>
+          <div class="lih-card__name">Noellie Raffin</div>
+          <div class="lih-card__meta">Usage famille</div>
+        </div>
+        <span class="lih-card__source">🌐 Google</span>
+      </div>
+    </div>
+
+    <!-- AVIS 4 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "Je sens une vraie différence : plus hydratés. Ça ne laisse pas de résidus avec un lait capillaire."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">F</div>
+        <div>
+          <div class="lih-card__name">Fatou</div>
+          <div class="lih-card__meta">Cheveux crépus</div>
+        </div>
+        <span class="lih-card__source">✓ Avis vérifié</span>
+      </div>
+    </div>
+
+    <!-- AVIS 5 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "Texture agréable et non laiteuse. Donne une sensation de fraîcheur, idéale pour les locks+++"
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">C</div>
+        <div>
+          <div class="lih-card__name">Caroline Bouisset</div>
+          <div class="lih-card__meta">Cheveux locksés</div>
+        </div>
+        <span class="lih-card__source">🌐 Google</span>
+      </div>
+    </div>
+
+    <!-- AVIS 6 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "J'ai fait mes vanilles avec c'était nickel. Et là ma fille on lui en met sur le cuir chevelu."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">D</div>
+        <div>
+          <div class="lih-card__name">Déborah</div>
+          <div class="lih-card__meta">Cheveux bouclés</div>
+        </div>
+        <span class="lih-card__source">✓ Avis vérifié</span>
+      </div>
+    </div>
+
+    <!-- AVIS 7 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "Merci pour ton produit qui a changé ma routine capillaire. Sachant que je reviens d'une grossesse."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">A</div>
+        <div>
+          <div class="lih-card__name">Akaeve</div>
+          <div class="lih-card__meta">Cheveux bouclés</div>
+        </div>
+        <span class="lih-card__source">✓ Avis vérifié</span>
+      </div>
+    </div>
+
+    <!-- AVIS 8 -->
+    <div class="lih-card">
+      <div class="lih-card__stars">★★★★★</div>
+      <p class="lih-card__text">
+        "Une gelée capillaire plus holistique : respect du cuir chevelu, ingrédients doux et vraie sensation de bien-être."
+      </p>
+      <div class="lih-card__footer">
+        <div class="lih-card__avatar">H</div>
+        <div>
+          <div class="lih-card__name">Hans Popote</div>
+          <div class="lih-card__meta">Avis Google</div>
+        </div>
+        <span class="lih-card__source">🌐 Google</span>
+      </div>
+    </div>
+
+  </div>
+</div>
