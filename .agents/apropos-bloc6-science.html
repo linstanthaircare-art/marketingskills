@@ -1,0 +1,249 @@
+<!-- ═══════════════════════════════════════════════════════════
+     BLOC 6 — LA SCIENCE DERRIÈRE UPCYCURL
+     Coller en 6e et dernière position
+     Fond blanc — aucun réglage supplémentaire nécessaire
+     ═══════════════════════════════════════════════════════════ -->
+
+<style>
+  .lih-science {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 32px;
+    font-family: inherit;
+  }
+  .lih-science__intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 48px;
+    align-items: start;
+    margin-bottom: 64px;
+  }
+  .lih-science__intro-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--lih-purple);
+    display: block;
+    margin-bottom: 12px;
+  }
+  .lih-science__intro-title {
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--lih-black);
+    margin: 0;
+    line-height: 1.1;
+  }
+  .lih-science__intro-quote {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.8;
+    margin: 0;
+    padding-top: 8px;
+  }
+  .lih-science__intro-quote strong { color: var(--lih-black); }
+  .lih-science__intro-quote em {
+    display: block;
+    font-style: italic;
+    color: var(--lih-purple);
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 600;
+  }
+
+  .lih-science__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  .lih-science__card {
+    background: var(--lih-purple-light);
+    border-radius: 18px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: box-shadow 0.2s;
+  }
+  .lih-science__card:hover {
+    box-shadow: 0 8px 28px rgba(123,53,194,0.12);
+  }
+  .lih-science__card-icon { font-size: 26px; }
+  .lih-science__card-name {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--lih-purple);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0;
+  }
+  .lih-science__card-action {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--lih-black);
+    margin: 0;
+  }
+  .lih-science__card-why {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .lih-science__card-why strong { color: var(--lih-black); }
+
+  .lih-science__proof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 32px;
+    background: var(--lih-black);
+    border-radius: 18px;
+    flex-wrap: wrap;
+  }
+  .lih-science__proof-item {
+    text-align: center;
+    color: var(--lih-white);
+  }
+  .lih-science__proof-number {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--lih-white);
+    display: block;
+    line-height: 1;
+  }
+  .lih-science__proof-number span { color: #b98ef0; }
+  .lih-science__proof-label {
+    font-size: 12px;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 4px;
+    display: block;
+  }
+  .lih-science__proof-sep {
+    width: 1px;
+    height: 48px;
+    background: rgba(255,255,255,0.15);
+  }
+
+  @media (max-width: 900px) {
+    .lih-science__intro { grid-template-columns: 1fr; gap: 24px; }
+    .lih-science__grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    .lih-science__grid { grid-template-columns: 1fr; }
+    .lih-science__proof-sep { display: none; }
+  }
+</style>
+
+<section class="lih-science">
+
+  <!-- INTRO -->
+  <div class="lih-science__intro">
+    <div>
+      <span class="lih-science__intro-label">L'expertise</span>
+      <h2 class="lih-science__intro-title">La science<br>derrière<br>UPCYCURL</h2>
+    </div>
+    <p class="lih-science__intro-quote">
+      En tant que chimiste R&D, je ne choisis pas un ingrédient parce qu'il
+      est tendance. Je le choisis parce que <strong>la science prouve qu'il fait
+      exactement ce que le cuir chevelu texturé a besoin</strong> — et parce que
+      sa source respecte mes convictions sur le sur-recyclage et le circuit court français.
+      <em>"Chaque actif d'UPCYCURL a une raison d'être précise. Rien n'est là par hasard."<br>— Amandine RAFFIN</em>
+    </p>
+  </div>
+
+  <!-- GRILLE DES ACTIFS -->
+  <div class="lih-science__grid">
+
+    <div class="lih-science__card">
+      <div class="lih-science__card-icon">🍈</div>
+      <p class="lih-science__card-name">Extrait de melon</p>
+      <p class="lih-science__card-action">Hydratation immédiate et durable</p>
+      <p class="lih-science__card-why">
+        Riche en enzymes et en eau de constitution, il pénètre le cuir chevelu
+        plutôt que de rester en surface. <strong>Résultat mesurable dès la première application.</strong>
+      </p>
+    </div>
+
+    <div class="lih-science__card">
+      <div class="lih-science__card-icon">🌾</div>
+      <p class="lih-science__card-name">Kératine végétale</p>
+      <p class="lih-science__card-action">Renforce et lisse le cortex</p>
+      <p class="lih-science__card-why">
+        Contrairement à la kératine animale, elle est biocompatible avec la fibre texturée.
+        <strong>Elle comble les zones de fragilité sans alourdir.</strong>
+      </p>
+    </div>
+
+    <div class="lih-science__card">
+      <div class="lih-science__card-icon">💎</div>
+      <p class="lih-science__card-name">Améthyste sur-recyclée</p>
+      <p class="lih-science__card-action">Reminéralisation du cuir chevelu</p>
+      <p class="lih-science__card-why">
+        Issue du sur-recyclage de pierres françaises. Ses minéraux rééquilibrent
+        l'environnement du cuir chevelu. <strong>C'est l'actif signature d'UPCYCURL.</strong>
+      </p>
+    </div>
+
+    <div class="lih-science__card">
+      <div class="lih-science__card-icon">🎋</div>
+      <p class="lih-science__card-name">Sève de bambou</p>
+      <p class="lih-science__card-action">Légèreté et fortification</p>
+      <p class="lih-science__card-why">
+        Sa silice végétale fortifie la fibre sans résidu ni lourdeur —
+        <strong>la réponse directe au problème des résidus blancs</strong>
+        que connaissent les cheveux texturés et locksés.
+      </p>
+    </div>
+
+    <div class="lih-science__card">
+      <div class="lih-science__card-icon">💜</div>
+      <p class="lih-science__card-name">Extrait de lavande</p>
+      <p class="lih-science__card-action">Apaisement du cuir chevelu</p>
+      <p class="lih-science__card-why">
+        Propriétés anti-inflammatoires douces, idéales pour les cuirs chevelus
+        sensibles ou réactifs. <strong>Convient dès 5 ans pour cette raison.</strong>
+      </p>
+    </div>
+
+    <div class="lih-science__card">
+      <div class="lih-science__card-icon">🌺</div>
+      <p class="lih-science__card-name">Vinaigre d'hibiscus</p>
+      <p class="lih-science__card-action">Rééquilibre le pH, referme les écailles</p>
+      <p class="lih-science__card-why">
+        Le cuir chevelu texturé a un pH naturellement différent.
+        <strong>Cet actif le ramène à son équilibre optimal</strong> — les écailles
+        se referment, la brillance revient.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- PREUVES -->
+  <div class="lih-science__proof">
+    <div class="lih-science__proof-item">
+      <span class="lih-science__proof-number">96<span>/100</span></span>
+      <span class="lih-science__proof-label">Score Yuka</span>
+    </div>
+    <div class="lih-science__proof-sep"></div>
+    <div class="lih-science__proof-item">
+      <span class="lih-science__proof-number">18<span>/20</span></span>
+      <span class="lih-science__proof-label">INCI Beauty</span>
+    </div>
+    <div class="lih-science__proof-sep"></div>
+    <div class="lih-science__proof-item">
+      <span class="lih-science__proof-number">96<span>%</span></span>
+      <span class="lih-science__proof-label">Naturel</span>
+    </div>
+    <div class="lih-science__proof-sep"></div>
+    <div class="lih-science__proof-item">
+      <span class="lih-science__proof-number">🇫🇷</span>
+      <span class="lih-science__proof-label">Fabriqué en France</span>
+    </div>
+  </div>
+
+</section>
