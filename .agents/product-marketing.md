@@ -12,7 +12,7 @@
 
 **Fondatrice:** Amandine RAFFIN — Chimiste spécialisée en R&D cosmétique
 
-**Slogan officiel:** "Prenez soin de vos cheveux maintenant"
+**Slogan officiel:** "ta nouvelle normalité"
 
 **One-liner:** Soins holistiques pour cuir chevelu et cheveux bouclés, frisés, crépus et locksés — alliant rigueur scientifique et bien-être intérieur.
 
