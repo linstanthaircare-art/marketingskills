@@ -1,4 +1,4 @@
-# Product Marketing Context — L'Instant Hair Care Art
+# Product Marketing Context — L'Instant Haircare
 
 > **Note for agents:** This is the foundational context document. Read this before using any other marketing skill. Update it by running the `product-marketing` skill.
 
@@ -6,138 +6,154 @@
 
 ## Product Overview
 
-**Brand name:** L'Instant Hair Care Art
+**Brand name:** L'Instant Haircare
 
-**One-liner:** [TODO: Add your 1-sentence brand description, e.g. "Premium hair care products crafted for all textured hair types."]
+**Website:** https://www.linstanthaircare.com
 
-**What it does:** L'Instant Hair Care Art sells hair care products (oils, shampoos, conditioners, treatments, and styling products) formulated for multicultural and textured hair. The brand celebrates hair in all its forms — coils, curls, waves, and everything in between.
+**One-liner:** Science-meets-wellness hair care for textured and locked hair, powered by upcycled natural and mineral ingredients.
 
-**Product category:** Hair care / beauty & personal care
+**What it does:** L'Instant Haircare formulates hair care products specifically for textured and locked hair — curls, coils, waves, and locs in all their forms. Products are built around upcycled plant co-products (grape seeds, plum pits, fruit pulps) and mineral materials (reclaimed crystals), transformed into oils, powders, and extracts rich in nutrients that hydrate, nourish, protect, and balance hair.
 
-**Product type:** E-commerce (physical products)
+**Product category:** Hair care / natural beauty / textured hair care
 
-**Business model:** Direct-to-consumer (DTC) product sales. [TODO: Add pricing tiers, subscription options, or retail partnerships if applicable.]
+**Product type:** E-commerce (physical products — DTC)
 
-**Website / store:** [TODO: Add URL]
+**Business model:** Direct-to-consumer product sales via linstanthaircare.com. [TODO: Add pricing tiers, subscription options, or retail partnerships if applicable.]
+
+**Brand concept:** "Upcycurl" — honoring the moment of caring for textured and locked hair. Hair care as a ritual, not just a routine.
+
+**Website language:** French (primary). [TODO: Confirm if bilingual or exclusively French-language market.]
+
+---
+
+## Brand Philosophy
+
+**Holistic beauty:** L'Instant Haircare treats beauty as the reflection of a balance between body, mind, and soul. Care goes beyond appearance to encompass nutrition, natural ingredient use, emotional wellbeing, and stress management.
+
+**Upcycling:** The brand gives a second life to plant co-products and mineral materials that would otherwise be discarded — grape seeds, plum pits, fruit pulps, reclaimed crystals — turning them into effective, nutrient-rich cosmetic actives. This combines effectiveness and innovation while reducing waste.
+
+**Cultural respect:** Locs are treated not just as a hairstyle but as a cultural and spiritual identity. The brand's care approach honors this significance.
 
 ---
 
 ## Target Audience
 
-**Primary audience:** People with textured, curly, wavy, or coily hair across all ethnicities and backgrounds. The brand serves a broad multicultural market that values effective, inclusive hair care.
+**Primary audience:** People with textured or locked hair — curls, coils, waves (2A–4C), and locs (freeform, semi-freeform, traditional, microlocs, sisterlocs) — who want effective, clean, and intentional hair care.
 
-**Demographics:**
-- Age: [TODO: e.g., 18–45]
-- Gender: [TODO: e.g., primarily women, all genders welcome]
-- Location: [TODO: e.g., US, UK, and international]
-- Income: [TODO: e.g., mid-range to premium]
+**Secondary audience:** People who care about sustainability and conscious beauty — they're drawn to upcycled, eco-responsible formulations.
 
 **Psychographics:**
-- Values authentic representation in beauty
-- Invested in their hair health and appearance
-- Looks for products that "actually work" for their hair type
-- Community-oriented — shares recommendations with friends and family
-- Follows hair care content creators and influencers
+- Values brands that genuinely understand their hair type, not generic formulations
+- Treats hair care as a ritual — intentional, self-honoring, not rushed
+- Culturally connected — may see their hair as an expression of identity, heritage, or spirituality (especially loc wearers)
+- Eco-conscious: prefers clean ingredients, sustainable sourcing, minimal waste
+- French-speaking, likely based in France, Belgium, Martinique, Guadeloupe, or other Francophone markets
+- Follows natural hair and loc care content creators
 
-**Hair types served:** All textured hair — 2A–4C curl types, locs, braids, waves
+**Hair types served:**
+- Textured hair: all curl types (2A–4C), coils, waves, natural hair
+- Locs: freeform, semi-freeform, traditional, microlocs, sisterlocs
 
-**Primary use cases / jobs to be done:**
-- Moisturizing and hydrating dry or damaged hair
+**Primary jobs to be done:**
+- Deep hydration and moisture retention for hair prone to dryness
+- Nourishing and strengthening the hair and scalp
 - Defining and enhancing curl/coil pattern
-- Protecting hair during styling and heat use
-- Reducing breakage and promoting growth
-- Simplifying multi-step routines
+- Maintaining healthy, hydrated, harmonious locs
+- Caring for hair as a holistic wellbeing ritual
 
 ---
 
 ## Problems & Pain Points
 
-- Products marketed as "for curly hair" often fail for coilier or tighter textures
-- Difficulty finding formulas that work without a trial-and-error process
-- Ingredients that cause buildup, dryness, or allergic reactions
-- Products that work in salon/humid climates but fail in other conditions
-- Price sensitivity — expensive products that don't deliver
+- Generic products claim to work for "curly hair" but fail for tighter coil patterns or locs
+- Most mainstream brands don't account for the specific hydration and nutrition needs of textured or locked hair
+- Products with harsh chemicals (sulfates, silicones, parabens) that damage texture over time
+- Lack of formulas that honour the cultural and spiritual dimension of locs
+- Difficulty finding sustainable, clean beauty options that actually perform for textured hair
 
-**Emotional tension:** Frustration from years of products that promise results but don't deliver. Desire to feel confident and proud of their natural hair.
+**Emotional tension:** The desire to feel seen and cared for as a person with textured or locked hair — to have products made specifically for them, not adapted as an afterthought.
 
 ---
 
 ## Positioning & Differentiation
 
-**Positioning statement:** [TODO: Fill in, e.g. "For people with textured hair who are tired of products that don't work for their curl type, L'Instant Hair Care Art delivers [key benefit] without [key frustration]."]
+**Positioning:** L'Instant Haircare sits at the intersection of science, nature, and wellness — premium textured and loc hair care built on upcycled ingredients, holistic philosophy, and deep cultural respect.
 
 **Key differentiators:**
-- [TODO: e.g., clean/natural ingredients]
-- [TODO: e.g., formulated across the full textured hair spectrum]
-- [TODO: e.g., developed by/for multicultural hair care experts]
-- [TODO: e.g., art-inspired brand identity]
+- **Upcycled formulations:** Ingredients sourced from plant co-products and reclaimed minerals — sustainable by design, not as a marketing afterthought
+- **Textured + loc specialists:** Products and advice adapted specifically to textured and locked hair, recognizing their distinct needs
+- **Holistic approach:** Beauty as balance — body, mind, soul — not just a cosmetic fix
+- **Science meets wellness:** Effective formulations grounded in both cosmetic science and natural care philosophy
+- **Cultural awareness:** Locs treated with the identity and spiritual significance they carry
 
-**Brand personality:** [TODO: e.g., "Joyful, expressive, expert, inclusive"]
+**Brand personality:** Intentional, warm, expert, culturally grounded, eco-conscious, premium but accessible.
 
-**What we are NOT:** [TODO: e.g., "Not a salon brand, not focused on a single ethnicity, not a mass-market drugstore product"]
+**What L'Instant Haircare is NOT:** A mass-market product, a one-size-fits-all brand, or a brand that treats textured hair as a niche afterthought.
 
 ---
 
 ## Messaging & Voice
 
-**Brand voice:** [TODO: e.g., "Warm, knowledgeable, celebratory — like advice from a trusted friend who knows hair"]
+**Brand voice:** Warm and knowledgeable — like a trusted expert who deeply understands both the science of textured hair and the emotional experience of caring for it. Thoughtful and cultural. Not clinical, not preachy.
 
 **Core message themes:**
-1. Every hair type deserves great products
-2. Hair care is an art form — express yourself
-3. Real results for real textured hair
+1. Your hair deserves care that truly understands it
+2. Every moment of care is a ritual — honour it
+3. Beauty that's good for you and the planet (upcycled, clean, conscious)
+4. Science that works with nature, not against it
 
-**Tagline / headline:** [TODO: Add if you have one]
+**Key claims to develop:**
+- Upcycled, eco-responsible ingredients
+- Formulated specifically for textured and locked hair
+- Holistic beauty — wellness from the inside out
+- [TODO: Add specific claims e.g. "sulfate-free," "no parabens," clinical test results, certifications]
 
-**Key proof points / claims:**
-- [TODO: e.g., "Dermatologist tested"]
-- [TODO: e.g., "No sulfates, parabens, or silicones"]
-- [TODO: e.g., "X% of users saw reduced breakage in 4 weeks"]
+**Tagline / headline:** [TODO: Add official tagline if one exists — e.g. "L'art de prendre soin" / "The art of care"]
 
 ---
 
 ## Competitive Landscape
 
-**Direct competitors:** [TODO: e.g., SheaMoisture, Cantu, Mielle Organics, Pattern Beauty, Briogeo]
+**Direct competitors (French/Francophone market):**
+- [TODO: Add known French textured hair brands]
+- Internationally: SheaMoisture, Mielle Organics, Pattern Beauty, Briogeo, Dr. Locs, Loclicious
 
-**Indirect competitors:** DIY home remedies, general drugstore brands
-
-**Our advantage over competitors:** [TODO: e.g., "More inclusive across curl types than X; cleaner ingredients than Y; more premium feel than Z"]
+**Competitive advantage:**
+- Upcycled ingredient sourcing (rare in textured hair care)
+- Holistic wellness positioning vs. purely functional competitors
+- Cultural depth around loc identity vs. brands that treat locs as just a hair type
 
 ---
 
 ## Business Goals
 
-**Current focus:** [TODO: e.g., "Growing DTC sales and building brand awareness on Instagram and TikTok"]
+**Current focus:** [TODO: e.g. Growing DTC sales, building brand awareness on Instagram/TikTok, expanding to retail]
 
-**Key metrics:**
-- [TODO: e.g., Monthly revenue target]
-- [TODO: e.g., Customer acquisition cost (CAC)]
-- [TODO: e.g., Repeat purchase rate]
-- [TODO: e.g., Social following growth]
+**Key metrics:** [TODO: Add revenue targets, CAC, repeat purchase rate, social growth goals]
 
-**Current channels:**
-- [TODO: e.g., Instagram, TikTok, email, paid ads]
+**Current channels:** [TODO: e.g. Instagram, TikTok, email, paid social — confirm active channels]
 
-**Upcoming launches / campaigns:** [TODO: Add any planned product launches or seasonal campaigns]
+**Language/market:** French-speaking primary. [TODO: Confirm geographic focus — France, DOM-TOM, pan-Francophone, or bilingual expansion]
+
+**Upcoming launches / campaigns:** [TODO: Add planned product launches or seasonal campaigns]
 
 ---
 
 ## Customer Language
 
-> Capture verbatim phrases customers use — these are gold for ad copy, email subject lines, and landing pages.
+> Verbatim phrases from real customers are the most powerful source of copy. Add these as you collect them.
 
-- [TODO: Add real customer quotes from reviews, DMs, or comments]
-- [TODO: e.g., "My curls have never looked this defined"]
-- [TODO: e.g., "Finally a product that doesn't weigh my 4C hair down"]
+- [TODO: Add real customer quotes from reviews, DMs, or social comments]
+- [TODO: e.g. "Enfin un produit qui hydrate vraiment mes locks"]
+- [TODO: e.g. "Je sens que mes cheveux sont compris"]
 
 ---
 
 ## Social Proof
 
 - [TODO: Add review counts, star ratings, press mentions, influencer features]
-- [TODO: e.g., "4.8 stars across 500+ reviews"]
-- [TODO: e.g., "As seen in Allure / Essence / Refinery29"]
+- [TODO: e.g. "4.9 étoiles sur X avis"]
+- [TODO: e.g. As featured in / recommandé par...]
 
 ---
 
