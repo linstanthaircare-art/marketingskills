@@ -1,0 +1,653 @@
+<!-- PAGE À PROPOS — L'Instant Haircare -->
+<!-- Structure : Hero → Pourquoi → Timeline → Valeurs → CTA → Instagram (en dernier) -->
+<!-- Coller chaque bloc dans un bloc "Code" Squarespace séparé -->
+<!-- Remplacer les URLs d'images par tes URLs Squarespace Media Library -->
+
+<!-- ============================================================
+     BLOC 1 — HERO FONDATRICE
+     Placer en première section, pleine largeur
+     ============================================================ -->
+<style>
+  /* ---- Variables de marque ---- */
+  :root {
+    --lih-purple: #7B35C2;
+    --lih-purple-light: #f3ecfc;
+    --lih-black: #111;
+    --lih-white: #fff;
+    --lih-gray: #888;
+    --lih-border: #e8e0f0;
+  }
+
+  /* ---- Hero ---- */
+  .lih-about-hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 32px 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    align-items: center;
+    font-family: inherit;
+  }
+  .lih-about-hero__visual {
+    border-radius: 24px;
+    overflow: hidden;
+    aspect-ratio: 3/4;
+    background: var(--lih-purple-light);
+  }
+  .lih-about-hero__visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+  }
+  .lih-about-hero__copy { display: flex; flex-direction: column; gap: 20px; }
+  .lih-about-hero__tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--lih-purple-light);
+    color: var(--lih-purple);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: fit-content;
+  }
+  .lih-about-hero__name {
+    font-size: clamp(36px, 4.5vw, 56px);
+    font-weight: 900;
+    line-height: 1.05;
+    color: var(--lih-black);
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .lih-about-hero__name span { color: var(--lih-purple); }
+  .lih-about-hero__role {
+    font-size: 16px;
+    color: var(--lih-gray);
+    font-weight: 500;
+    line-height: 1.5;
+    border-left: 3px solid var(--lih-purple);
+    padding-left: 16px;
+  }
+  .lih-about-hero__intro {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+  }
+  .lih-about-hero__intro strong { color: var(--lih-black); }
+  .lih-about-hero__creds {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .lih-about-hero__cred {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--lih-black);
+    font-weight: 600;
+  }
+  .lih-about-hero__cred-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--lih-purple);
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .lih-about-hero {
+      grid-template-columns: 1fr;
+      gap: 36px;
+      padding: 48px 20px 40px;
+    }
+    .lih-about-hero__visual { aspect-ratio: 1/1; }
+  }
+
+  /* ---- Section générique ---- */
+  .lih-about-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 72px 32px;
+    font-family: inherit;
+  }
+  .lih-about-section--dark {
+    background: var(--lih-black);
+    max-width: 100%;
+    padding: 72px 0;
+  }
+  .lih-about-section--dark .lih-about-section__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .lih-about-section--lavender {
+    background: var(--lih-purple-light);
+    max-width: 100%;
+    padding: 72px 0;
+  }
+  .lih-about-section--lavender .lih-about-section__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .lih-about-section__label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--lih-purple);
+    margin-bottom: 12px;
+  }
+  .lih-about-section__title {
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--lih-black);
+    margin: 0 0 32px;
+    line-height: 1.1;
+  }
+  .lih-about-section__title--white { color: var(--lih-white); }
+
+  /* ---- Pourquoi section ---- */
+  .lih-about-why {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: start;
+  }
+  .lih-about-why__text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.85;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .lih-about-why__text strong { color: var(--lih-black); }
+  .lih-about-why__quote {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--lih-purple);
+    line-height: 1.4;
+    border-left: 4px solid var(--lih-purple);
+    padding-left: 20px;
+    margin: 0;
+  }
+  .lih-about-why__image {
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 4/5;
+    background: var(--lih-purple-light);
+  }
+  .lih-about-why__image img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+  }
+
+  @media (max-width: 768px) {
+    .lih-about-why { grid-template-columns: 1fr; gap: 36px; }
+  }
+
+  /* ---- Timeline ---- */
+  .lih-timeline { display: flex; flex-direction: column; gap: 0; }
+  .lih-timeline__item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 24px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--lih-border);
+    align-items: start;
+  }
+  .lih-timeline__item:last-child { border-bottom: none; }
+  .lih-timeline__year {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--lih-purple);
+    letter-spacing: 0.05em;
+    padding-top: 3px;
+  }
+  .lih-timeline__content {}
+  .lih-timeline__event {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--lih-black);
+    margin: 0 0 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .lih-timeline__detail {
+    font-size: 14px;
+    color: var(--lih-gray);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ---- Valeurs ---- */
+  .lih-values {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .lih-value-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px;
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .lih-value-card__icon { font-size: 28px; }
+  .lih-value-card__title {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--lih-white);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+  .lih-value-card__text { font-size: 13px; color: #aaa; line-height: 1.6; margin: 0; }
+
+  @media (max-width: 768px) {
+    .lih-values { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 480px) {
+    .lih-values { grid-template-columns: 1fr; }
+  }
+
+  /* ---- CTA final ---- */
+  .lih-about-cta {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 32px;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .lih-about-cta__title {
+    font-size: clamp(28px, 3.5vw, 40px);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--lih-black);
+    margin: 0;
+    line-height: 1.15;
+  }
+  .lih-about-cta__title span { color: var(--lih-purple); }
+  .lih-about-cta__text { font-size: 16px; color: #555; line-height: 1.7; margin: 0; }
+  .lih-about-cta__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--lih-purple);
+    color: var(--lih-white);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: background 0.18s, transform 0.18s;
+  }
+  .lih-about-cta__btn:hover { background: #6225a8; transform: translateY(-1px); }
+  .lih-about-cta__secondary {
+    font-size: 13px;
+    color: var(--lih-gray);
+  }
+  .lih-about-cta__secondary a { color: var(--lih-purple); text-decoration: none; font-weight: 600; }
+  .lih-about-cta__secondary a:hover { text-decoration: underline; }
+
+  /* ---- Instagram alternatif ---- */
+  .lih-about-instagram {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 32px;
+    font-family: inherit;
+    text-align: center;
+  }
+  .lih-about-instagram__title {
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--lih-black);
+    margin: 0 0 8px;
+  }
+  .lih-about-instagram__sub {
+    font-size: 15px;
+    color: var(--lih-gray);
+    margin: 0 0 40px;
+  }
+  .lih-about-instagram__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .lih-about-instagram__post {
+    aspect-ratio: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--lih-purple-light);
+    position: relative;
+  }
+  .lih-about-instagram__post img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform 0.3s;
+  }
+  .lih-about-instagram__post:hover img { transform: scale(1.05); }
+  .lih-about-instagram__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--lih-black);
+    color: var(--lih-white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: background 0.18s;
+  }
+  .lih-about-instagram__link:hover { background: #333; }
+
+  @media (max-width: 600px) {
+    .lih-about-instagram__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+
+<!-- ============================================================
+     BLOC 1 — HERO : Amandine, chimiste R&D
+     ============================================================ -->
+<section class="lih-about-hero">
+  <div class="lih-about-hero__visual">
+    <!--
+      REMPLACER : photo d'Amandine au stand (celle qui existe déjà sur la page)
+      ou une photo plus sobre, fond neutre, sourire authentique.
+      URL à copier depuis ta médiathèque Squarespace.
+    -->
+    <img
+      src="COLLER_ICI_URL_PHOTO_AMANDINE"
+      alt="Amandine RAFFIN — Fondatrice & Chimiste R&D de L'Instant Haircare"
+      loading="eager"
+    />
+  </div>
+
+  <div class="lih-about-hero__copy">
+    <div class="lih-about-hero__tag">
+      🔬 Chimiste spécialisée en R&D cosmétique
+    </div>
+
+    <h1 class="lih-about-hero__name">
+      Amandine<br><span>RAFFIN</span>
+    </h1>
+
+    <p class="lih-about-hero__role">
+      Fondatrice de L'Instant Haircare<br>
+      Formulatrice des soins UPCYCURL
+    </p>
+
+    <p class="lih-about-hero__intro">
+      Je suis avant tout une <strong>chimiste passionnée</strong> par la recherche
+      cosmétique et le soin des cheveux texturés et locksés.
+      Mon parcours en R&D m'a permis de comprendre combien la science
+      et la nature pouvaient se rencontrer pour offrir des rituels
+      capillaires qui ont du sens.
+    </p>
+
+    <div class="lih-about-hero__creds">
+      <div class="lih-about-hero__cred">
+        <div class="lih-about-hero__cred-dot"></div>
+        Chimiste R&D cosmétique de formation
+      </div>
+      <div class="lih-about-hero__cred">
+        <div class="lih-about-hero__cred-dot"></div>
+        Formules développées en laboratoire français
+      </div>
+      <div class="lih-about-hero__cred">
+        <div class="lih-about-hero__cred-dot"></div>
+        96/100 Yuka · 18/20 INCI Beauty · Sur-recyclage français
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     BLOC 2 — POURQUOI J'AI CRÉÉ L'INSTANT HAIRCARE
+     ============================================================ -->
+<div style="max-width:100%; background:#fff; padding: 0;">
+<section class="lih-about-section">
+  <p class="lih-about-section__label">L'histoire</p>
+  <h2 class="lih-about-section__title">Pourquoi j'ai créé<br>L'Instant Haircare</h2>
+
+  <div class="lih-about-why">
+    <div class="lih-about-why__text">
+      <p>
+        Avec L'Instant Haircare, j'ai voulu réunir mes deux univers :
+        la <strong>rigueur scientifique</strong> et une <strong>vision holistique du bien-être</strong>,
+        où chaque geste de soin devient une offrande à soi-même.
+      </p>
+      <p>
+        Il y a aussi une quête personnelle : créer des
+        <strong>moments de soin qui apaisent, reconnectent et célèbrent</strong>.
+        Parce que les cheveux texturés et locksés méritent des soins pensés
+        pour eux — pas adaptés en dernière minute.
+      </p>
+      <blockquote class="lih-about-why__quote">
+        "Je crois profondément que prendre soin de ses cheveux,
+        c'est aussi prendre soin de son identité, de son histoire
+        et de son énergie intérieure."
+      </blockquote>
+      <p>
+        C'est ce qui guide chacune de mes créations et chacun de mes projets.
+        UPCYCURL n'est pas un produit lifestyle — c'est le résultat d'une
+        expertise scientifique réelle, avec des ingrédients sur-recyclés
+        sourcés en France, formulés pour les vraies textures.
+      </p>
+    </div>
+
+    <div class="lih-about-why__image">
+      <!--
+        REMPLACER : photo d'Amandine en train de travailler
+        (labo, formulation, événement) ou une photo produit lifestyle.
+        Taille recommandée : 600×750px minimum.
+      -->
+      <img
+        src="COLLER_ICI_URL_PHOTO_AMANDINE_2"
+        alt="Amandine RAFFIN — chimiste et fondatrice de L'Instant Haircare"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+</div>
+
+
+<!-- ============================================================
+     BLOC 3 — TIMELINE : D'un rêve à une mission
+     ============================================================ -->
+<div style="max-width:100%; background:#f8f5ff; padding: 0;">
+<section class="lih-about-section">
+  <p class="lih-about-section__label">Le parcours</p>
+  <h2 class="lih-about-section__title">D'un rêve de petite fille<br>à la mission de transmettre</h2>
+
+  <div class="lih-timeline">
+
+    <div class="lih-timeline__item">
+      <div class="lih-timeline__year">1996</div>
+      <div class="lih-timeline__content">
+        <p class="lih-timeline__event">Les cheveux, déjà au cœur de mes rituels</p>
+        <p class="lih-timeline__detail">Bien coiffée pour aller à l'école — le soin capillaire comme rituel quotidien commence ici.</p>
+      </div>
+    </div>
+
+    <div class="lih-timeline__item">
+      <div class="lih-timeline__year">1998</div>
+      <div class="lih-timeline__content">
+        <p class="lih-timeline__event">Première expérience en salon</p>
+        <p class="lih-timeline__detail">Chez Kanellia — première rencontre avec le monde du soin professionnel des cheveux texturés.</p>
+      </div>
+    </div>
+
+    <div class="lih-timeline__item">
+      <div class="lih-timeline__year">1999</div>
+      <div class="lih-timeline__content">
+        <p class="lih-timeline__event">Le dimanche chez ma mère</p>
+        <p class="lih-timeline__detail">Chaque dimanche, ma mère me coiffe avant l'église. Un rituel, une transmission. Les bases de tout ce qui suivra.</p>
+      </div>
+    </div>
+
+    <div class="lih-timeline__item">
+      <div class="lih-timeline__year">2012</div>
+      <div class="lih-timeline__content">
+        <p class="lih-timeline__event">La formation scientifique</p>
+        <p class="lih-timeline__detail">Spécialisation en chimie cosmétique et R&D — l'envie de comprendre la formulation pour créer mieux.</p>
+      </div>
+    </div>
+
+    <div class="lih-timeline__item">
+      <div class="lih-timeline__year">Aujourd'hui</div>
+      <div class="lih-timeline__content">
+        <p class="lih-timeline__event">L'Instant Haircare & UPCYCURL</p>
+        <p class="lih-timeline__detail">La marque née de tout ce chemin : science, nature, identité culturelle et bien-être intérieur. Pour toutes celles dont les cheveux méritent mieux.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+</div>
+
+
+<!-- ============================================================
+     BLOC 4 — NOS VALEURS (fond noir)
+     ============================================================ -->
+<div style="background:#111; width:100%; padding: 72px 0;">
+<section class="lih-about-section--dark">
+  <div class="lih-about-section__inner">
+    <p class="lih-about-section__label">Ce qui nous guide</p>
+    <h2 class="lih-about-section__title lih-about-section__title--white" style="margin-bottom: 40px;">
+      Nos valeurs
+    </h2>
+
+    <div class="lih-values">
+
+      <div class="lih-value-card">
+        <div class="lih-value-card__icon">🌿</div>
+        <p class="lih-value-card__title">Sur-recyclage français</p>
+        <p class="lih-value-card__text">
+          Nos ingrédients sont issus de co-produits végétaux et minéraux français.
+          L'améthyste sur-recyclée, ingrédient phare d'UPCYCURL, aurait été jetée —
+          elle reminéralise ton cuir chevelu.
+        </p>
+      </div>
+
+      <div class="lih-value-card">
+        <div class="lih-value-card__icon">🔬</div>
+        <p class="lih-value-card__title">Science sans compromis</p>
+        <p class="lih-value-card__text">
+          Formulées par une chimiste R&D, pas par un tendance.
+          Chaque actif a une raison d'être mesurable. 96/100 Yuka.
+          18/20 INCI Beauty. La preuve par les chiffres.
+        </p>
+      </div>
+
+      <div class="lih-value-card">
+        <div class="lih-value-card__icon">🌺</div>
+        <p class="lih-value-card__title">Bien-être holistique</p>
+        <p class="lih-value-card__text">
+          Le soin capillaire comme rituel, pas comme corvée.
+          Corps, esprit et identité sont liés. Chaque application
+          d'UPCYCURL est un moment offert à soi-même.
+        </p>
+      </div>
+
+      <div class="lih-value-card">
+        <div class="lih-value-card__icon">✊🏾</div>
+        <p class="lih-value-card__title">Respect culturel</p>
+        <p class="lih-value-card__text">
+          Les locks sont une identité, pas seulement un type capillaire.
+          Nos soins honorent cette dimension — aucun cheveu texturé
+          n'est traité comme une niche secondaire ici.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div>
+
+
+<!-- ============================================================
+     BLOC 5 — CTA PRODUIT (pont vers UPCYCURL)
+     ============================================================ -->
+<section class="lih-about-cta">
+  <p class="lih-about-section__label" style="text-align:center;">Le résultat de tout ça</p>
+  <h2 class="lih-about-cta__title">
+    Rencontre<br><span>UPCYCURL</span>
+  </h2>
+  <p class="lih-about-cta__text">
+    Sérum hydratant cuir chevelu sans rinçage — formulé pour
+    cheveux bouclés, frisés, crépus & locksés.
+    96 % naturel. Fabriqué en France. Convient dès 5 ans.
+  </p>
+  <a href="/shop/p/upcycurl" class="lih-about-cta__btn">
+    Découvrir UPCYCURL — 18 € →
+  </a>
+  <p class="lih-about-cta__secondary">
+    Ou voir le <a href="/shop/p/bundle-upcycurl-applicateur">bundle avec l'applicateur masseur — 22 €</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     BLOC 6 — INSTAGRAM (en dernier — pas en premier)
+     Remplace le feed intégré par une grille statique avec UN seul lien sortant
+     ============================================================ -->
+<div style="background:#f8f5ff; width:100%; padding:0;">
+<section class="lih-about-instagram">
+  <h2 class="lih-about-instagram__title">Suivez notre aventure.</h2>
+  <p class="lih-about-instagram__sub">@linstanthaircare sur Instagram</p>
+
+  <div class="lih-about-instagram__grid">
+    <!--
+      REMPLACER chaque src par une capture d'écran de tes 4 meilleurs posts.
+      Télécharger les images → uploader dans Squarespace Media Library → copier l'URL.
+      Avantage vs. feed intégré : les visiteuses ne quittent PAS la page.
+    -->
+    <div class="lih-about-instagram__post">
+      <img src="COLLER_URL_POST_INSTAGRAM_1" alt="L'Instant Haircare sur Instagram" loading="lazy" />
+    </div>
+    <div class="lih-about-instagram__post">
+      <img src="COLLER_URL_POST_INSTAGRAM_2" alt="L'Instant Haircare sur Instagram" loading="lazy" />
+    </div>
+    <div class="lih-about-instagram__post">
+      <img src="COLLER_URL_POST_INSTAGRAM_3" alt="L'Instant Haircare sur Instagram" loading="lazy" />
+    </div>
+    <div class="lih-about-instagram__post">
+      <img src="COLLER_URL_POST_INSTAGRAM_4" alt="L'Instant Haircare sur Instagram" loading="lazy" />
+    </div>
+  </div>
+
+  <a
+    href="https://www.instagram.com/linstanthaircare"
+    target="_blank"
+    rel="noopener"
+    class="lih-about-instagram__link"
+  >
+    Voir notre Instagram →
+  </a>
+</section>
+</div>
