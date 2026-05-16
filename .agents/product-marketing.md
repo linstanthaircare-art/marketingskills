@@ -10,151 +10,182 @@
 
 **Website:** https://www.linstanthaircare.com
 
-**One-liner:** Science-meets-wellness hair care for textured and locked hair, powered by upcycled natural and mineral ingredients.
+**Fondatrice:** Amandine RAFFIN — Chimiste spécialisée en R&D cosmétique
 
-**What it does:** L'Instant Haircare formulates hair care products specifically for textured and locked hair — curls, coils, waves, and locs in all their forms. Products are built around upcycled plant co-products (grape seeds, plum pits, fruit pulps) and mineral materials (reclaimed crystals), transformed into oils, powders, and extracts rich in nutrients that hydrate, nourish, protect, and balance hair.
+**Slogan officiel:** "Prenez soin de vos cheveux maintenant"
 
-**Product category:** Hair care / natural beauty / textured hair care
+**One-liner:** Soins holistiques pour cuir chevelu et cheveux bouclés, frisés, crépus et locksés — alliant rigueur scientifique et bien-être intérieur.
 
-**Product type:** E-commerce (physical products — DTC)
+**Concept produit phare:** UPCYCURL — un sérum hydratant sans rinçage pour le cuir chevelu, formulé à partir d'ingrédients sur-recyclés français.
 
-**Business model:** Direct-to-consumer product sales via linstanthaircare.com. [TODO: Add pricing tiers, subscription options, or retail partnerships if applicable.]
+**Product category:** Cosmétique capillaire naturelle / cheveux texturés et locksés
 
-**Brand concept:** "Upcycurl" — honoring the moment of caring for textured and locked hair. Hair care as a ritual, not just a routine.
+**Product type:** E-commerce DTC (vente en ligne directe)
 
-**Website language:** French (primary). [TODO: Confirm if bilingual or exclusively French-language market.]
+**Business model:** Vente directe via linstanthaircare.com. Livraison France Métropolitaine sous 3 à 5 jours via Colissimo.
 
 ---
 
-## Brand Philosophy
+## Gamme complète & Prix
 
-**Holistic beauty:** L'Instant Haircare treats beauty as the reflection of a balance between body, mind, and soul. Care goes beyond appearance to encompass nutrition, natural ingredient use, emotional wellbeing, and stress management.
+| Produit | Prix |
+|---------|------|
+| UPCYCURL — Sérum hydratant cuir chevelu sans rinçage | 18,00 € |
+| Applicateur Masseur Cuir Chevelu | 8,00 € |
+| Bundle UPCYCURL + Applicateur Masseur | 22,00 € |
+| Coffret Fête des Mères (édition limitée) | 32,00 € |
+| Carte Cadeau | 25 / 50 / 75 / 100 € |
+| E-book "Cuir chevelu apaisé en 15 min/jour" | Gratuit |
 
-**Upcycling:** The brand gives a second life to plant co-products and mineral materials that would otherwise be discarded — grape seeds, plum pits, fruit pulps, reclaimed crystals — turning them into effective, nutrient-rich cosmetic actives. This combines effectiveness and innovation while reducing waste.
+---
 
-**Cultural respect:** Locs are treated not just as a hairstyle but as a cultural and spiritual identity. The brand's care approach honors this significance.
+## Certifications & Formulation
+
+- **96 % d'ingrédients d'origine naturelle**
+- **96/100 sur Yuka**
+- **18/20 sur INCI Beauty**
+- Ingrédients issus du **sur-recyclage français**
+- **Fabriqué en France**
+- **Convient dès 5 ans** (usage famille)
+
+**Actifs clés :**
+- Extrait de melon
+- Kératine végétale
+- Améthyste sur-recyclée
+- Sève de bambou
+- Extrait de lavande
+- Vinaigre d'hibiscus
+
+---
+
+## Philosophie de marque
+
+**Soins holistiques :** La beauté capillaire comme reflet d'un équilibre entre corps, esprit et âme. Le soin des cheveux est un rituel, pas une contrainte — un moment à s'offrir.
+
+**Sur-recyclage :** Les ingrédients proviennent de co-produits végétaux et minéraux français (ex. améthyste sur-recyclée) qui auraient été jetés, transformés en actifs cosmétiques riches en nutriments. Efficacité et innovation au service de la réduction des déchets.
+
+**Respect culturel :** Les locks sont abordées comme une identité culturelle et spirituelle, pas uniquement comme un type capillaire. Les soins proposés honorent cette dimension.
+
+**Science + bien-être :** Formulées par une chimiste R&D, les formules allient rigueur scientifique et philosophie du bien-être intérieur.
 
 ---
 
 ## Target Audience
 
-**Primary audience:** People with textured or locked hair — curls, coils, waves (2A–4C), and locs (freeform, semi-freeform, traditional, microlocs, sisterlocs) — who want effective, clean, and intentional hair care.
+**Audience principale :** Personnes aux cheveux texturés ou locksés — boucles, frisés, crépus (2A–4C) et locks (freeform, microlocs, sisterlocs, traditionnels) — qui veulent des soins efficaces, propres et intentionnels.
 
-**Secondary audience:** People who care about sustainability and conscious beauty — they're drawn to upcycled, eco-responsible formulations.
+**Audience secondaire :** Parents cherchant des soins adaptés à leurs enfants (dès 5 ans) ; personnes sensibles à la cosmétique naturelle et au sur-recyclage.
 
-**Psychographics:**
-- Values brands that genuinely understand their hair type, not generic formulations
-- Treats hair care as a ritual — intentional, self-honoring, not rushed
-- Culturally connected — may see their hair as an expression of identity, heritage, or spirituality (especially loc wearers)
-- Eco-conscious: prefers clean ingredients, sustainable sourcing, minimal waste
-- French-speaking, likely based in France, Belgium, Martinique, Guadeloupe, or other Francophone markets
-- Follows natural hair and loc care content creators
+**Psychographie :**
+- Tient au soin de ses cheveux comme à un rituel personnel
+- Cherche des produits qui comprennent vraiment son type capillaire
+- Sensible aux labels naturels, à la transparence des ingrédients (Yuka, INCI)
+- Valorise le "fabriqué en France" et le circuit court
+- Identité culturelle liée à ses cheveux, surtout pour les porteuses de locks
+- Femme (et mère) principalement, mais usage famille encouragé
+- Suit des créatrices de contenu capillaire sur Instagram et TikTok
 
-**Hair types served:**
-- Textured hair: all curl types (2A–4C), coils, waves, natural hair
-- Locs: freeform, semi-freeform, traditional, microlocs, sisterlocs
-
-**Primary jobs to be done:**
-- Deep hydration and moisture retention for hair prone to dryness
-- Nourishing and strengthening the hair and scalp
-- Defining and enhancing curl/coil pattern
-- Maintaining healthy, hydrated, harmonious locs
-- Caring for hair as a holistic wellbeing ritual
+**Occasions d'usage :**
+- Routine capillaire hebdomadaire (wash day)
+- Soin quotidien du cuir chevelu
+- Routine post-grossesse ou capillaire familiale
+- Cadeau beauté (bundle, coffret, carte cadeau)
 
 ---
 
 ## Problems & Pain Points
 
-- Generic products claim to work for "curly hair" but fail for tighter coil patterns or locs
-- Most mainstream brands don't account for the specific hydration and nutrition needs of textured or locked hair
-- Products with harsh chemicals (sulfates, silicones, parabens) that damage texture over time
-- Lack of formulas that honour the cultural and spiritual dimension of locs
-- Difficulty finding sustainable, clean beauty options that actually perform for textured hair
+- Les produits "cheveux bouclés" du marché ne fonctionnent pas pour les textures plus serrées ou les locks
+- Ingrédients irritants (sulfates, silicones, parabènes) qui abîment la texture sur le long terme
+- Résidus blancs ou fini gras qui alourdissent les cheveux
+- Manque de produits pensés pour le cuir chevelu spécifiquement, pas juste les longueurs
+- Peu de marques françaises spécialisées dans les cheveux texturés avec des scores Yuka/INCI élevés
+- Manque de respect de la dimension culturelle des locks dans la cosmétique mainstream
 
-**Emotional tension:** The desire to feel seen and cared for as a person with textured or locked hair — to have products made specifically for them, not adapted as an afterthought.
-
----
-
-## Positioning & Differentiation
-
-**Positioning:** L'Instant Haircare sits at the intersection of science, nature, and wellness — premium textured and loc hair care built on upcycled ingredients, holistic philosophy, and deep cultural respect.
-
-**Key differentiators:**
-- **Upcycled formulations:** Ingredients sourced from plant co-products and reclaimed minerals — sustainable by design, not as a marketing afterthought
-- **Textured + loc specialists:** Products and advice adapted specifically to textured and locked hair, recognizing their distinct needs
-- **Holistic approach:** Beauty as balance — body, mind, soul — not just a cosmetic fix
-- **Science meets wellness:** Effective formulations grounded in both cosmetic science and natural care philosophy
-- **Cultural awareness:** Locs treated with the identity and spiritual significance they carry
-
-**Brand personality:** Intentional, warm, expert, culturally grounded, eco-conscious, premium but accessible.
-
-**What L'Instant Haircare is NOT:** A mass-market product, a one-size-fits-all brand, or a brand that treats textured hair as a niche afterthought.
+**Tension émotionnelle :** Vouloir se sentir vue et comprise en tant que femme aux cheveux texturés ou locksés — avoir enfin un produit conçu pour soi, pas adapté en dernière minute.
 
 ---
 
-## Messaging & Voice
+## Positionnement & Différenciation
 
-**Brand voice:** Warm and knowledgeable — like a trusted expert who deeply understands both the science of textured hair and the emotional experience of caring for it. Thoughtful and cultural. Not clinical, not preachy.
+**Positionnement :** L'Instant Haircare se situe à l'intersection de la cosmétique scientifique, du naturel et du bien-être holistique — des soins capillaires premium pour cheveux texturés et locksés, formulés à partir d'ingrédients sur-recyclés français par une chimiste R&D.
 
-**Core message themes:**
-1. Your hair deserves care that truly understands it
-2. Every moment of care is a ritual — honour it
-3. Beauty that's good for you and the planet (upcycled, clean, conscious)
-4. Science that works with nature, not against it
+**Différenciateurs clés :**
+- **Sur-recyclage français :** Ingrédients issus de co-produits végétaux et minéraux — démarche rare et concrète, pas un argument marketing vide
+- **Scores de transparence élevés :** 96/100 Yuka, 18/20 INCI Beauty — preuve vérifiable
+- **Expertise fondatrice :** Chimiste R&D cosmétique — crédibilité scientifique réelle
+- **Spécialiste cuir chevelu :** Focus sur la santé du cuir chevelu, pas seulement les longueurs
+- **Convient à toute la famille dès 5 ans :** Formule douce et inclusive
+- **Fabriqué en France :** Circuit court, qualité contrôlée
 
-**Key claims to develop:**
-- Upcycled, eco-responsible ingredients
-- Formulated specifically for textured and locked hair
-- Holistic beauty — wellness from the inside out
-- [TODO: Add specific claims e.g. "sulfate-free," "no parabens," clinical test results, certifications]
-
-**Tagline / headline:** [TODO: Add official tagline if one exists — e.g. "L'art de prendre soin" / "The art of care"]
+**Ce que L'Instant Haircare n'est PAS :** Une marque de mass market, un produit générique "pour tout le monde", une marque qui traite les cheveux texturés comme une niche secondaire.
 
 ---
 
-## Competitive Landscape
+## Voix & Messaging
 
-**Direct competitors (French/Francophone market):**
-- [TODO: Add known French textured hair brands]
-- Internationally: SheaMoisture, Mielle Organics, Pattern Beauty, Briogeo, Dr. Locs, Loclicious
+**Ton de marque :** Chaleureux, expert, culturellement ancré, bienveillant. Comme les conseils d'une amie chimiste qui comprend tes cheveux ET ton vécu.
 
-**Competitive advantage:**
-- Upcycled ingredient sourcing (rare in textured hair care)
-- Holistic wellness positioning vs. purely functional competitors
-- Cultural depth around loc identity vs. brands that treat locs as just a hair type
+**Thèmes de message clés :**
+1. Vos cheveux méritent un soin qui les comprend vraiment
+2. Chaque moment de soin est un rituel — offrez-vous cet instant
+3. La beauté consciente : ingrédients sur-recyclés, fabriqué en France, transparent sur les formules
+4. La science au service du naturel et du bien-être
 
----
-
-## Business Goals
-
-**Current focus:** [TODO: e.g. Growing DTC sales, building brand awareness on Instagram/TikTok, expanding to retail]
-
-**Key metrics:** [TODO: Add revenue targets, CAC, repeat purchase rate, social growth goals]
-
-**Current channels:** [TODO: e.g. Instagram, TikTok, email, paid social — confirm active channels]
-
-**Language/market:** French-speaking primary. [TODO: Confirm geographic focus — France, DOM-TOM, pan-Francophone, or bilingual expansion]
-
-**Upcoming launches / campaigns:** [TODO: Add planned product launches or seasonal campaigns]
+**Arguments de preuve (copy-ready) :**
+- "96/100 sur Yuka"
+- "18/20 sur INCI Beauty"
+- "96 % d'ingrédients d'origine naturelle"
+- "Sur-recyclage français"
+- "Fabriqué en France"
+- "Convient dès 5 ans"
+- "Formulé par une chimiste spécialisée en R&D cosmétique"
 
 ---
 
-## Customer Language
+## Avis clients (verbatim)
 
-> Verbatim phrases from real customers are the most powerful source of copy. Add these as you collect them.
+> Ces citations sont de l'or pour le copywriting — utiliser telles quelles dans les ads, emails et landing pages.
 
-- [TODO: Add real customer quotes from reviews, DMs, or social comments]
-- [TODO: e.g. "Enfin un produit qui hydrate vraiment mes locks"]
-- [TODO: e.g. "Je sens que mes cheveux sont compris"]
+**Du site :**
+- *"Je l'utilise depuis deux mois et ma vie a changé. La gelée procure à mon cuir chevelu une hydratation et un confort inattendus."* — Rana, cheveux locksés
+- *"La texture est absolument parfaite, pas de fini gras ni résidus blancs, je revis."* — Rana, cheveux locksés
+- *"J'ai fait mes vanilles avec c'était nickel. Ma fille on lui en met sur le cuir chevelu."* — Déborah, cheveux bouclés
+- *"Je sens une vraie différence : plus hydratés. Ça ne laisse pas de résidus avec un lait capillaire."* — Fatou, cheveux crépus
+- *"Merci pour ton produit qui a changé ma routine. Sachant que je reviens d'une grossesse."* — Akaeve, cheveux bouclés
+
+**Google :**
+- *"J'utilise upcycurl depuis 2 ans pour toute la famille. Même partie en tour du monde avec."* — Noellie Raffin
+- *"Texture agréable et non laiteuse. Donne une sensation de fraîcheur, idéale pour les locks+++"* — Caroline Bouisset
+- *"Une gelée capillaire plus holistique : respect du cuir chevelu, ingrédients doux et vraie sensation de bien-être."* — Hans Popote
 
 ---
 
-## Social Proof
+## Paysage concurrentiel
 
-- [TODO: Add review counts, star ratings, press mentions, influencer features]
-- [TODO: e.g. "4.9 étoiles sur X avis"]
-- [TODO: e.g. As featured in / recommandé par...]
+**Concurrents directs (France, cheveux texturés) :**
+- [TODO : Ajouter les marques françaises concurrentes identifiées]
+
+**Concurrents internationaux :** SheaMoisture, Mielle Organics, Pattern Beauty, Briogeo, Dr. Locs
+
+**Avantage concurrentiel :**
+- Sur-recyclage français (très rare dans la cosmétique capillaire texturée)
+- Scores Yuka/INCI parmi les plus élevés du segment
+- Expertise chimiste R&D fondatrice (crédibilité vs. marques "lifestyle")
+- Positionnement holistique bien-être vs. approche purement fonctionnelle des concurrents
 
 ---
 
-_Last updated: 2026-05-16. Update this file using the `product-marketing` skill._
+## Objectifs business
+
+**Focus actuel :** [TODO : ex. Croissance des ventes DTC, notoriété sur Instagram/TikTok, développement retail]
+
+**Métriques clés :** [TODO : Ajouter CA cible, CAC, taux de réachat, croissance abonnés]
+
+**Canaux actifs :** Instagram (feed visible sur la page À propos), [TODO : confirmer TikTok, email, etc.]
+
+**Prochains lancements :** [TODO : Nouveaux produits, campagnes saisonnières prévues]
+
+---
+
+_Dernière mise à jour : 2026-05-16. Mettre à jour via le skill `product-marketing`._
