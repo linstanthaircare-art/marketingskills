@@ -1,0 +1,234 @@
+<!-- ═══════════════════════════════════════════════════════════
+     BLOC 1 — HERO FONDATRICE
+     Coller en PREMIER dans la page À propos
+     ⚠️  Ce bloc contient tout le CSS — obligatoire en premier
+     ═══════════════════════════════════════════════════════════ -->
+
+<style>
+  :root {
+    --lih-purple: #7B35C2;
+    --lih-purple-light: #f3ecfc;
+    --lih-black: #111;
+    --lih-white: #fff;
+    --lih-gray: #888;
+    --lih-border: #e8e0f0;
+  }
+
+  .lih-about-hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 32px 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    align-items: center;
+    font-family: inherit;
+  }
+  .lih-about-hero__visual {
+    border-radius: 24px;
+    overflow: hidden;
+    aspect-ratio: 3/4;
+    background: var(--lih-purple-light);
+  }
+  .lih-about-hero__visual img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: top center; display: block;
+  }
+  .lih-about-hero__copy { display: flex; flex-direction: column; gap: 20px; }
+  .lih-about-hero__tag {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--lih-purple-light); color: var(--lih-purple);
+    font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; padding: 8px 14px; border-radius: 8px; width: fit-content;
+  }
+  .lih-about-hero__name {
+    font-size: clamp(36px, 4.5vw, 56px); font-weight: 900;
+    line-height: 1.05; color: var(--lih-black); margin: 0; text-transform: uppercase;
+  }
+  .lih-about-hero__name span { color: var(--lih-purple); }
+  .lih-about-hero__role {
+    font-size: 16px; color: var(--lih-gray); font-weight: 500; line-height: 1.5;
+    border-left: 3px solid var(--lih-purple); padding-left: 16px;
+  }
+  .lih-about-hero__intro { font-size: 16px; color: #333; line-height: 1.8; }
+  .lih-about-hero__intro strong { color: var(--lih-black); }
+  .lih-about-hero__creds { display: flex; flex-direction: column; gap: 10px; }
+  .lih-about-hero__cred {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14px; color: var(--lih-black); font-weight: 600;
+  }
+  .lih-about-hero__cred-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--lih-purple); flex-shrink: 0;
+  }
+
+  .lih-about-section {
+    max-width: 1100px; margin: 0 auto; padding: 72px 32px; font-family: inherit;
+  }
+  .lih-about-section__label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--lih-purple); margin-bottom: 12px;
+    display: block;
+  }
+  .lih-about-section__title {
+    font-size: clamp(28px, 3.5vw, 44px); font-weight: 900;
+    text-transform: uppercase; color: var(--lih-black); margin: 0 0 32px; line-height: 1.1;
+  }
+  .lih-about-section__title--white { color: var(--lih-white); }
+
+  .lih-about-why {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start;
+  }
+  .lih-about-why__text {
+    font-size: 16px; color: #333; line-height: 1.85;
+    display: flex; flex-direction: column; gap: 20px;
+  }
+  .lih-about-why__text strong { color: var(--lih-black); }
+  .lih-about-why__quote {
+    font-size: 20px; font-style: italic; font-weight: 700;
+    color: var(--lih-purple); line-height: 1.4;
+    border-left: 4px solid var(--lih-purple); padding-left: 20px; margin: 0;
+  }
+  .lih-about-why__image {
+    border-radius: 20px; overflow: hidden; aspect-ratio: 4/5;
+    background: var(--lih-purple-light);
+  }
+  .lih-about-why__image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  .lih-timeline { display: flex; flex-direction: column; gap: 0; }
+  .lih-timeline__item {
+    display: grid; grid-template-columns: 100px 1fr; gap: 24px;
+    padding: 28px 0; border-bottom: 1px solid var(--lih-border); align-items: start;
+  }
+  .lih-timeline__item:last-child { border-bottom: none; }
+  .lih-timeline__year {
+    font-size: 13px; font-weight: 800; color: var(--lih-purple);
+    letter-spacing: 0.05em; padding-top: 3px;
+  }
+  .lih-timeline__event {
+    font-size: 15px; font-weight: 700; color: var(--lih-black);
+    margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.02em;
+  }
+  .lih-timeline__detail { font-size: 14px; color: var(--lih-gray); line-height: 1.6; margin: 0; }
+
+  .lih-values { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .lih-value-card {
+    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px; padding: 28px 20px;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .lih-value-card__icon { font-size: 28px; }
+  .lih-value-card__title {
+    font-size: 14px; font-weight: 800; color: var(--lih-white);
+    text-transform: uppercase; letter-spacing: 0.05em; margin: 0;
+  }
+  .lih-value-card__text { font-size: 13px; color: #aaa; line-height: 1.6; margin: 0; }
+
+  .lih-about-cta {
+    max-width: 680px; margin: 0 auto; text-align: center; padding: 80px 32px;
+    font-family: inherit; display: flex; flex-direction: column; align-items: center; gap: 24px;
+  }
+  .lih-about-cta__title {
+    font-size: clamp(28px, 3.5vw, 40px); font-weight: 900;
+    text-transform: uppercase; color: var(--lih-black); margin: 0; line-height: 1.15;
+  }
+  .lih-about-cta__title span { color: var(--lih-purple); }
+  .lih-about-cta__text { font-size: 16px; color: #555; line-height: 1.7; margin: 0; }
+  .lih-about-cta__btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--lih-purple); color: var(--lih-white); text-decoration: none;
+    font-size: 15px; font-weight: 700; padding: 16px 32px; border-radius: 12px;
+    text-transform: uppercase; letter-spacing: 0.05em; transition: background 0.18s, transform 0.18s;
+  }
+  .lih-about-cta__btn:hover { background: #6225a8; transform: translateY(-1px); }
+  .lih-about-cta__secondary { font-size: 13px; color: var(--lih-gray); }
+  .lih-about-cta__secondary a { color: var(--lih-purple); text-decoration: none; font-weight: 600; }
+
+  .lih-about-instagram {
+    max-width: 1100px; margin: 0 auto; padding: 64px 32px;
+    font-family: inherit; text-align: center;
+  }
+  .lih-about-instagram__title {
+    font-size: clamp(24px, 3vw, 36px); font-weight: 900;
+    text-transform: uppercase; color: var(--lih-black); margin: 0 0 8px;
+  }
+  .lih-about-instagram__sub { font-size: 15px; color: var(--lih-gray); margin: 0 0 40px; }
+  .lih-about-instagram__grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 32px;
+  }
+  .lih-about-instagram__post {
+    aspect-ratio: 1; border-radius: 12px; overflow: hidden;
+    background: var(--lih-purple-light); position: relative;
+  }
+  .lih-about-instagram__post img {
+    width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s;
+  }
+  .lih-about-instagram__post:hover img { transform: scale(1.05); }
+  .lih-about-instagram__link {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--lih-black); color: var(--lih-white); text-decoration: none;
+    font-size: 14px; font-weight: 700; padding: 14px 28px; border-radius: 10px;
+    text-transform: uppercase; letter-spacing: 0.05em; transition: background 0.18s;
+  }
+  .lih-about-instagram__link:hover { background: #333; }
+
+  @media (max-width: 768px) {
+    .lih-about-hero { grid-template-columns: 1fr; gap: 36px; padding: 48px 20px 40px; }
+    .lih-about-hero__visual { aspect-ratio: 1/1; }
+    .lih-about-why { grid-template-columns: 1fr; gap: 36px; }
+    .lih-values { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 480px) {
+    .lih-values { grid-template-columns: 1fr; }
+    .lih-about-instagram__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+<section class="lih-about-hero">
+
+  <div class="lih-about-hero__visual">
+    <!-- ⬇️ REMPLACER par l'URL de ta photo (Amandine au stand ou portrait) -->
+    <!-- Dans Squarespace : Médiathèque → clic sur la photo → "Copier le lien" -->
+    <img
+      src="COLLER_ICI_URL_PHOTO_AMANDINE"
+      alt="Amandine RAFFIN — Fondatrice & Chimiste R&D de L'Instant Haircare"
+      loading="eager"
+    />
+  </div>
+
+  <div class="lih-about-hero__copy">
+    <div class="lih-about-hero__tag">🔬 Chimiste spécialisée en R&D cosmétique</div>
+
+    <h1 class="lih-about-hero__name">
+      Amandine<br><span>RAFFIN</span>
+    </h1>
+
+    <p class="lih-about-hero__role">
+      Fondatrice de L'Instant Haircare<br>
+      Formulatrice des soins UPCYCURL
+    </p>
+
+    <p class="lih-about-hero__intro">
+      Je suis avant tout une <strong>chimiste passionnée</strong> par la recherche
+      cosmétique et le soin des cheveux texturés et locksés.
+      Mon parcours en R&D m'a permis de comprendre combien la science
+      et la nature pouvaient se rencontrer pour offrir des rituels capillaires qui ont du sens.
+    </p>
+
+    <div class="lih-about-hero__creds">
+      <div class="lih-about-hero__cred">
+        <div class="lih-about-hero__cred-dot"></div>
+        Chimiste R&D cosmétique de formation
+      </div>
+      <div class="lih-about-hero__cred">
+        <div class="lih-about-hero__cred-dot"></div>
+        Formules développées en laboratoire français
+      </div>
+      <div class="lih-about-hero__cred">
+        <div class="lih-about-hero__cred-dot"></div>
+        96/100 Yuka · 18/20 INCI Beauty · Sur-recyclage français
+      </div>
+    </div>
+  </div>
+
+</section>
