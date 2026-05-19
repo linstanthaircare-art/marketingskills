@@ -43,7 +43,7 @@ C'est pourquoi les soins conçus "pour tout le monde" ne fonctionnent pas : ils 
 
 Le cuir chevelu a un pH naturellement acide, autour de 4,5 à 5,5. Cet environnement acide est essentiel : il maintient les écailles capillaires fermées, protège contre les bactéries et préserve le film hydrolipidique.
 
-Les cheveux texturés ont tendance à présenter un **pH légèrement plus élevé** — ce qui signifie des écailles plus ouvertes, une porosité plus importante, et une hydratation qui s'évapore plus vite encore.
+Le cheveu texturé, plus poreux en raison de ses courbures qui soulèvent les écailles, **a plus de mal à maintenir un pH acide stable**. Contrairement au cheveu lisse, il ne "tient" pas bien un environnement acide — le pH remonte plus vite après un soin, les écailles se rouvrent, et l'hydratation s'évapore.
 
 Les shampoings et soins au pH trop alcalin aggravent ce déséquilibre. C'est souvent l'origine des cheveux "qui boivent tout sans jamais être hydratés".
 
