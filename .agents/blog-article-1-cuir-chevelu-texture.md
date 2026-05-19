@@ -55,7 +55,7 @@ En formulation, trois axes sont non négociables pour répondre aux besoins spé
 
 **1. Une hydratation qui pénètre, pas qui enrobe**
 
-Les corps gras lourds (certaines huiles minérales, beurres non-raffinés en excès) forment une barrière occlusive qui donne l'impression d'hydrater — mais bloque en réalité les échanges avec la fibre. Le cuir chevelu texturé a besoin d'actifs à petit poids moléculaire capables de pénétrer réellement : polysaccharides hydratants, sucres filmogènes, protéines hydrolysées.
+Les corps gras lourds (certaines huiles minérales, beurres non-raffinés en excès) forment une barrière occlusive qui donne l'impression d'hydrater — mais limite en réalité les échanges avec la fibre. Le cuir chevelu texturé a besoin d'actifs capables d'agir en profondeur : des protéines hydrolysées à petit poids moléculaire pour pénétrer la fibre, et des sucres filmogènes ou polysaccharides pour protéger et retenir l'eau en surface.
 
 **2. Un rééquilibrage du pH**
 
@@ -73,7 +73,7 @@ Le cuir chevelu texturé soumis à des produits agressifs, à la chaleur ou à d
 Le cuir chevelu est la peau dont naissent tes cheveux. Si elle est en déséquilibre, la fibre qui en sort l'est aussi. Commencer le soin au niveau du cuir chevelu n'est pas optionnel.
 
 **Utiliser des produits avec des silicones non-solubles**
-Les silicones (diméthicone, cyclopentasiloxane) donnent une impression de douceur immédiate mais s'accumulent sur la fibre et le cuir chevelu. À long terme, ils étouffent le follicule et rendent les soins hydratants inefficaces.
+Les silicones non-solubles (diméthicone, amodiméthicone) donnent une impression de douceur immédiate mais s'accumulent sur la fibre et le cuir chevelu. À long terme, cette accumulation crée un film qui empêche les soins hydratants suivants de pénétrer — et rend la routine progressivement inefficace.
 
 **Rincer trop fréquemment**
 Chaque shampoing altère le film hydrolipidique. Sur un cuir chevelu texturé déjà prédisposé à la sécheresse, rincer trop souvent aggrave le déséquilibre. Un soin sans rinçage au pH adapté, appliqué entre les wash days, est bien plus efficace.
