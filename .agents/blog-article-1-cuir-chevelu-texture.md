@@ -41,7 +41,7 @@ C'est pourquoi les soins conçus "pour tout le monde" ne fonctionnent pas : ils 
 
 ## Le pH du cuir chevelu texturé : un équilibre délicat
 
-Le cuir chevelu a un pH naturellement acide, autour de 4,5 à 5,5. Cet environnement acide est essentiel : il maintient les écailles capillaires fermées, protège contre les bactéries et préserve le film hydrolipidique.
+Le cuir chevelu a un pH naturellement acide, autour de 4,5 à 5,5. Cet environnement acide est essentiel pour la peau : il protège contre les bactéries et préserve le film hydrolipidique. La fibre capillaire, elle, a besoin d'un pH acide similaire pour que les écailles restent bien fermées.
 
 Le cheveu texturé, plus poreux en raison de ses courbures qui soulèvent les écailles, **a plus de mal à maintenir un pH acide stable**. Contrairement au cheveu lisse, il ne "tient" pas bien un environnement acide — le pH remonte plus vite après un soin, les écailles se rouvrent, et l'hydratation s'évapore.
 
