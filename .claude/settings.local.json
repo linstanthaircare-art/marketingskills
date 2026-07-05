@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "mcp__65bb17db-9bec-486d-9204-ee605315db82__notion-create-pages"
+      "mcp__65bb17db-9bec-486d-9204-ee605315db82__notion-create-pages",
+      "mcp__fb0284fc-0b65-41bf-a93e-8b4bedc5c6a9__start-editing-transaction",
+      "mcp__fb0284fc-0b65-41bf-a93e-8b4bedc5c6a9__perform-editing-operations",
+      "mcp__fb0284fc-0b65-41bf-a93e-8b4bedc5c6a9__commit-editing-transaction",
+      "mcp__fb0284fc-0b65-41bf-a93e-8b4bedc5c6a9__cancel-editing-transaction"
     ]
   }
 }
